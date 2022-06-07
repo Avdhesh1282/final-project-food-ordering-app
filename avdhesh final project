@@ -1,0 +1,69 @@
+class Restaurant:
+    def __init__(self,name,Price,Discount,Orders,Quantity):
+        self.name = name
+        self.Price= Price
+        self.Discount = dict()
+        self.orders = []
+        self.Quantity={}
+
+    def add_menu(self,name,price):
+        self.menu.update({name:price})
+
+    def print_menu(self):
+        for key,value in self.menu.items():
+            print(f'{key} ----> {value}')
+
+
+
+    def __repr__(self):
+        return f'name: {self.name}, Location:{self.add}'
+
+class User:
+    def __init__(self,full name, address ,phone number, password):
+        self.name = full name
+        self.add = address
+        self.phone = phone number
+        self.pass = Passward
+    def __inti__(Login here ,Place order , Order History )
+        self.Login= Login here
+        self.Order= Place Order
+        self.History= Older History
+    def __repr__(self):
+        return f'name: {self.Update profile}, Location:{self.Rgister in App} Phone:{self.Email}'
+        self.Update= Update Profile
+        self.Rgister= Rgister in App
+        self.Email = Email Address
+
+     def print_menu(self,res_name):
+        res_name.print_menu()
+
+
+
+
+AVDHESH RAJPUT RESTAURANT MENU = Restaurant('ARR','Raipur')
+
+print(ARR)
+
+name:ARR, Location:Raipur
+
+ARR.add_menu('Tandoori Chicken(4 pieces)',[INR 240])
+ARR.add_menu('Vegan Burger (1 piece)',[INR 320])
+ARR.add_menu('Truffle Cake (500 gb)',[INr 900])
+
+ARR.print_menu()
+
+Tandoori Chicken (4 pieces)240 ---->
+ Vegan Burger (1 pieces) 320----> 
+ Truffle Cake(500 gm)900----> 
+
+pritom = User('Pritom','Raipur','323220042')
+
+print(pritom)
+
+name: Pritom, Location:Raipur Phone:323220042
+
+pritom.print_menu(ARR)
+
+Tandoori Chicken (4 pieces)240 ---->
+ Vegan Burger (1 pieces) 320----> 
+ Truffle Cake(500 gm)900----> 
